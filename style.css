@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255,226,230);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1{
+    font-size: 35px;
+    padding-top: 45px;
+}
+
+
+.center-text{
+    text-align: center;
+}
+
+.text{
+    font-size: 18px;
+    margin:0 auto;
+    width: 40em;
+    line-height: 1.2;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.vl-left{
+    display: inline-block;
+    border-left: 15vw solid rgb(255, 168, 196);
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.vl-right{
+    border-left: 15vw solid rgb(255, 168, 196);
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+  .menu{
+    display: inline-block;
+    position: fixed;   
+    font-size: 35px;
+    margin-left: 17vw;
+    vertical-align: top;
+  }
+
+  .menu-elements{
+    font-size: 1cqw;
+    padding-left: 20px;
+  }
